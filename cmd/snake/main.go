@@ -7,10 +7,10 @@ import (
 )
 
 func main() {
-	const WindowWidth int = 23
-	const WindowHeight int = 17
+	const WindowWidth int = 50
+	const WindowHeight int = 25
 	window := graphics.Window{Width: WindowWidth, Height: WindowHeight, Buffer: make([]byte, WindowWidth*WindowHeight+WindowHeight)}
-	object := graphics.Object{X: 0, Y: 0, Width: 5, Height: 3, Buffer: []byte("XXXXXX---XXXXXX")}
+	object := graphics.Object{X: 0, Y: 0, Width: 5, Height: 2, Buffer: []byte("D V DVIDEO")}
 	xSpeed := 1
 	ySpeed := 1
 	for {
